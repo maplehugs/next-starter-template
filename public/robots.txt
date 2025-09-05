@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://5maple.com/sitemap.xml
