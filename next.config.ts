@@ -1,16 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    output: "export", // enables static export for GitHub Pages
-    images: {
-        unoptimized: true, // required for static export
-    },
-    basePath: "",       // leave empty since you use 5maple.com custom domain
-    assetPrefix: "",    // also leave empty for custom domain
+    output: "export",        // ensures ./out includes CSS/JS bundles
+    images: { unoptimized: true },
+    basePath: "",
+    assetPrefix: "",
+    trailingSlash: true,     // 👈 helps static exports include CSS/JS correctly
 };
 
 export default nextConfig;
 
-// added by create cloudflare to enable calling `getCloudflareContext()` in `next dev`
+// keep this for dev (Cloudflare)
 import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 initOpenNextCloudflareForDev();
