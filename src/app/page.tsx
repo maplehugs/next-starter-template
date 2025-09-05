@@ -1,6 +1,6 @@
 "use client";
 
-import {Fredoka} from "next/font/google";
+import  {Fredoka} from "next/font/google";
 import useSound from "use-sound";
 import Draggable from "react-draggable";
 import {useRef, useState, useEffect} from "react";
