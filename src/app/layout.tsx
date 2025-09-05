@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "maple's place",
   description: "A page i made using next.js, welcome to my place tho :3",
+    viewport: "width=device-width, initial-scale=1"
 };
 
 export default function RootLayout({

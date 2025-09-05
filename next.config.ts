@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: "export", // enables static export for GitHub Pages
+    images: {
+        unoptimized: true, // required for static export
+    },
+    basePath: "",       // leave empty since you use 5maple.com custom domain
+    assetPrefix: "",    // also leave empty for custom domain
 };
 
 export default nextConfig;
