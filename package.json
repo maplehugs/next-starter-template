@@ -42,7 +42,6 @@
     "dev": "next dev",
     "lint": "next lint",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "start": "next start",
-    "install": "npm install"
+    "start": "next start"
   }
 }
