@@ -1030,7 +1030,7 @@ export default function Home() {
                                 className="bg-gray-200 rounded-lg p-4 flex flex-col items-center justify-center hover:bg-gray-300 transition"
                             >
                                 <Image
-                                    src="/YoutubeIcon.png"
+                                    src="/webp/YoutubeIcon.webp"
                                     alt="YouTube"
                                     className="w-12 h-12 mb-2"
                                     width={400}
@@ -1055,7 +1055,7 @@ export default function Home() {
                                 className="bg-gray-200 rounded-lg p-4 flex flex-col items-center justify-center hover:bg-gray-300 transition"
                             >
                                 <Image
-                                    src="/TwitterIcon.png"
+                                    src="/webp/TwitterIcon.webp"
                                     alt="Twitter"
                                     className="w-12 h-12 mb-2"
                                     width={400}
